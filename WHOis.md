@@ -40,5 +40,12 @@ WHOIS (pronounced as the phrase "who is") is a query and response protocol that 
 
 ## Use Cases - 
 
-#### Simple Command usage : use IP or domain name
+#### Simple Command usage : use IP or domain name --
     whois [IP|Domain]
+#### Want to take the output into a file --
+    whois [IP] > output.txt
+#### Use IP address instead of the domain name for some extra information --
+    whois [IP]
+#### For query specificnformation use --
+    whois -q version [IP]
+    whois -q types [IP]
