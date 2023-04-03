@@ -49,3 +49,6 @@ WHOIS (pronounced as the phrase "who is") is a query and response protocol that 
 #### For query specificnformation use --
     whois -q version [IP]
     whois -q types [IP]
+
+### Additional Resource --
+ [Whois](https://who.is/)
